@@ -1108,7 +1108,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -2030,7 +2030,7 @@
         <findbugs.threshold>Low</findbugs.threshold>
         <!-- the exclude file cannot be here directly, as FindBugs would interpret the path as relative to
         each module; the default exclude filter file is at etc/config/findbugs-exclude.xml -->
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -2042,11 +2042,11 @@
 <!--        <release.tests.args>-Dmaven.test.skip=false</release.tests.args>-->
 <!--        <release.preparationGoals>clean install</release.preparationGoals>-->
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
-        <surefire.coverage.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
+        <surefire.coverage.argline/>
         <surefire.maxmem.argline>1024</surefire.maxmem.argline>
-        <failsafe.coverage.argline />
+        <failsafe.coverage.argline/>
         <server.coverage.argline>${failsafe.coverage.argline}</server.coverage.argline>
 
 
@@ -2126,7 +2126,7 @@
         <!-- Jakartified -->
         <cdi.api.version>3.0.0</cdi.api.version>
         <ejb.version>4.0.0</ejb.version>
-        <grizzly2.version>3.0.0</grizzly2.version>
+        <grizzly2.version>3.0.1</grizzly2.version>
         <hk2.version>3.0.1</hk2.version>
         <jsp.version>3.0.0</jsp.version>
         <jstl.version>2.0.0</jstl.version>
