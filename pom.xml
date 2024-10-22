@@ -1108,7 +1108,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -2030,7 +2030,7 @@
         <findbugs.threshold>Low</findbugs.threshold>
         <!-- the exclude file cannot be here directly, as FindBugs would interpret the path as relative to
         each module; the default exclude filter file is at etc/config/findbugs-exclude.xml -->
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -2042,11 +2042,11 @@
 <!--        <release.tests.args>-Dmaven.test.skip=false</release.tests.args>-->
 <!--        <release.preparationGoals>clean install</release.preparationGoals>-->
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
-        <surefire.coverage.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
+        <surefire.coverage.argline/>
         <surefire.maxmem.argline>1024</surefire.maxmem.argline>
-        <failsafe.coverage.argline />
+        <failsafe.coverage.argline/>
         <server.coverage.argline>${failsafe.coverage.argline}</server.coverage.argline>
 
 
@@ -2147,7 +2147,7 @@
         <jaxb.ri.version>3.0.0</jaxb.ri.version>
         <jaxrs.api.spec.version>3.0</jaxrs.api.spec.version>
         <jaxrs.api.impl.version>3.0.0</jaxrs.api.impl.version>
-        <jetty.version>11.0.0</jetty.version>
+        <jetty.version>12.0.12</jetty.version>
         <jetty.plugin.version>11.0.0</jetty.plugin.version>
         <jetty.servlet.api.25.version>6.1.14</jetty.servlet.api.25.version>
         <jsonb.api.version>2.0.0</jsonb.api.version>
