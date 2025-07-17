@@ -62,7 +62,7 @@
         <dependency>
             <groupId>org.kohsuke</groupId>
             <artifactId>github-api</artifactId>
-            <version>1.95</version>
+            <version>1.102</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugin-testing</groupId>
@@ -127,6 +127,6 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <maven.version>3.6.2</maven.version>
+        <maven.version>3.9.8</maven.version>
     </properties>
 </project>
