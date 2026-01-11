@@ -85,7 +85,7 @@ build.readme
 /core-server/src/main/java/org/glassfish/jersey/server/internal/monitoring/core/UniformTimeValuesSnapshot.java
 /core-server/src/main/java/jersey/repackaged
 /media/json-jackson/src/main/java/org/glassfish/jersey/jackson/internal/jackson
-/media/json-jackson3/src/main/java/org/glassfish/jersey/jackson/internal/jackson
+/media/json-jackson3/src/main/java/org/glassfish/jersey/jackson3/internal/jackson
 /META-INF/NOTICE.md
 NOTICE.md
 /ext/cdi/jersey-cdi1x/src/main/java/org/glassfish/jersey/ext/cdi1x/internal/ProcessAllAnnotatedTypes.java 
