@@ -26,8 +26,8 @@ import tools.jackson.databind.json.JsonMapper;
 
 import org.glassfish.jersey.jackson3.internal.jackson.jakarta.rs.json.JsonMapperConfigurator;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.logging.Logger;
@@ -62,12 +62,12 @@ public class JacksonMapperConfigurator extends JsonMapperConfigurator {
                         commonConfig.getRuntimeType(),
                         CommonProperties.JSON_JACKSON_ENABLED_MODULES, String.class);
 
-        final List<JacksonModule> modules;
+        final List<JacksonModule> modules = new ArrayList<>();
         try {
-            modules = moduleSupplier.get();
+            modules.addAll(moduleSupplier.get());
         } catch (Throwable e) {
             LOGGER.warning(LocalizationMessages.ERROR_MODULES_NOT_LOADED(e.getMessage()));
-            return Collections.emptyList();
+            return modules;
         }
 
         for (String exludeModuleName : EXCLUDE_MODULE_NAMES) {
