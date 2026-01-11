@@ -26,6 +26,7 @@
     <suppress files="org[\\/]openjdk[\\/]jmh" checks=".*"/>
     <!-- Suppress all checks on repackaged Jackson JAX-RS providers. -->
     <suppress files="org[\\/]glassfish[\\/]jersey[\\/]jackson[\\/]internal[\\/]jackson" checks=".*"/>
+    <suppress files="org[\\/]glassfish[\\/]jersey[\\/]jackson3[\\/]internal[\\/]jackson" checks=".*"/>
     <suppress files="generated" checks=".*"/>
 
     <!-- Suppress all checks for all Jersey repackaged libraries. -->

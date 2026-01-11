@@ -76,6 +76,11 @@ Jackson JAX-RS Providers Version 2.19.1
 * Project: https://github.com/FasterXML/jackson-jaxrs-providers
 * Copyright: (c) 2009-2023 FasterXML, LLC. All rights reserved unless otherwise indicated.
 
+Jackson Jakarta RS Providers Version 3.0.3
+* License: Apache License, 2.0
+* Project: https://github.com/FasterXML/jackson-jakarta-rs-providers
+* Copyright: (c) 2009-2025 FasterXML, LLC. All rights reserved unless otherwise indicated.
+
 jQuery v3.7.1
 * License: jquery.org/license
 * Project: jquery.org

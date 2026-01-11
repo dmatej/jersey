@@ -92,6 +92,7 @@
         <module>jersey-ejb</module>
         <module>json-binding-webapp</module>
         <module>json-jackson</module>
+        <module>json-jackson3</module>
         <module>json-jettison</module>
         <module>json-moxy</module>
         <module>json-processing-webapp</module>

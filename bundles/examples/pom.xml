@@ -68,8 +68,9 @@
             <distribution>repo</distribution>
             <comments>Google Guava @ org.glassfish.jersey.internal.guava,
                 Dropwizard Monitoring inspired classes @ org.glassfish.jersey.server.internal.monitoring.core,
-                Hibernate Validation classes @ org.glassfish.jersey.server.validation.internal.hibernate, and
-                Jackson JAX-RS Providers @ org.glassfish.jersey.jackson.internal.jackson.jaxrs</comments>
+                Hibernate Validation classes @ org.glassfish.jersey.server.validation.internal.hibernate,
+                Jackson JAX-RS Providers @ org.glassfish.jersey.jackson.internal.jackson.jaxrs, and
+                Jackson Jakarta RS Providers @ org.glassfish.jersey.jackson3.internal.jackson.jakarta.rs</comments>
         </license>
         <license>
             <name>Public Domain</name>
