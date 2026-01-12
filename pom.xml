@@ -2343,7 +2343,7 @@
         <xmlunit.version>2.10.3</xmlunit.version>
         <httpclient.version>4.5.14</httpclient.version>
         <httpclient5.version>5.5</httpclient5.version>
-        <jackson.version>2.19.1</jackson.version>
+        <jackson.version>2.20.1</jackson.version>
         <jackson3.version>3.0.3</jackson3.version>
         <jackson.annotation.version>2.20</jackson.annotation.version>
         <javassist.version>3.30.2-GA</javassist.version>
