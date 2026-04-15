@@ -31,7 +31,7 @@ The project maintains the following source code repositories:
 
 ## Third-party Content
 
-Jackson JAX-RS Providers version 3.0.4
+Jackson JAX-RS Providers version 3.1.1
 * License: Apache License, 2.0
 * Project: https://github.com/FasterXML/jackson-jakarta-rs-providers
-* Copyright: (c) 2009-2025 FasterXML, LLC. All rights reserved unless otherwise indicated.
+* Copyright: (c) 2009-2026 FasterXML, LLC. All rights reserved unless otherwise indicated.

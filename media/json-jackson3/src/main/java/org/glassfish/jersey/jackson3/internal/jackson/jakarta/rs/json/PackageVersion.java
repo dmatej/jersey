@@ -11,7 +11,7 @@ import tools.jackson.core.util.VersionUtil;
  */
 public final class PackageVersion implements Versioned {
     public static final Version VERSION = VersionUtil.parseVersion(
-        "3.0.4", "tools.jackson.jakarta.rs", "jackson-jakarta-rs-json-provider");
+        "3.1.1", "tools.jackson.jakarta.rs", "jackson-jakarta-rs-json-provider");
 
     @Override
     public Version version() {
